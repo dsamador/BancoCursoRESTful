@@ -23,7 +23,7 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
     {
         public async Task<Response<int>> Handle(CreateClienteCommand request, CancellationToken cancellationToken)
         {
-            
+            throw new NotImplementedException();
         }
     }
 }
